@@ -9,7 +9,7 @@ For more detailed information, check the blog post below.
 - [Sample KoboReader File](https://github.com/MPCaloba/Kobo_to_Notion/blob/main/KoboReader.sqlite)
 
 ## 🔗 Links
-- [Blog Article]()
+- [Blog Article](https://medium.com/@marco_caloba/48ba2c0bb05d)
 - [Personal website](https://mcaloba-04272.stackbit.app/)
 - [LinkdIn](https://www.linkedin.com/in/marcocaloba/)
 - [Medium](https://medium.com/@marco_caloba)
