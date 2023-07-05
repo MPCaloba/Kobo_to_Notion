@@ -12,8 +12,8 @@ sqlite_file = path + "\KoboReader.sqlite"
 
 
 ## Setting up the connection to Notion ------------------------------------------------------
-notion_token = 'secret_6LLjHhhTT1svptfOn1PKcaAPO1bWo3ozuKSmYjU9hC7'
-page_id = 'c3df18b1d083451e89b61a0419422e29'   # 'Kobo to Notion' page
+notion_token = 'secret_6LL______1svptf___________bWo3______YjU9hC7'
+page_id = 'c3d______083451_____1a0____22e29'
 
 
 ## Connecting to the SQLite file ------------------------------------------------------------
@@ -53,7 +53,6 @@ def write_text(client, page_id, text, type):
 def main():
     conn = create_connection(sqlite_file)
     
-    # Nota -- tenho que fazer inner join com o Bookmark para ir buscar só os livros que têm highlights
     books_in_file = pd.read_sql("SELECT DISTINCT c.ContentId AS 'Content ID', c.Title AS 'Book Title', c.Attribution AS 'Author', c.DateLastRead AS Date " +
                                 "FROM Bookmark AS b INNER JOIN content AS c " +
                                 "ON b.VolumeID = c.ContentID " +
